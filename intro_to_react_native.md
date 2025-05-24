@@ -19,6 +19,14 @@ React Native lets you build mobile apps using JavaScript and React. This guide w
 ```bash
 npm install -g react-native-cli
 ```
+if issues just uninstall react native cli
+```bash
+npm uninstall -g react-native-cli @react-native-community/cli
+```
+and use
+```bash
+npx @react-native-community/cli@latest init AwesomeProject
+```
 
 (or with Yarn)
 
